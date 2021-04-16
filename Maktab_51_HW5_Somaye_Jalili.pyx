@@ -10,6 +10,11 @@ class Book:
         self.progress = progress
 
     def read(self,number_page_read):
+        """
+
+        :param number_page_read:
+        :return:
+        """
         if self.number_pages == number_page_read:
             self.progress='100%'
             print('you read book full')
